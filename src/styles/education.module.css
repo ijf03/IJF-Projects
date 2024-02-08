@@ -1,0 +1,35 @@
+.educationSection {
+    background: #f8e6a0;
+    padding: 2rem;
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 10px;
+  }
+  
+  .educationTitle {
+    text-align: left;
+    font-family: 'Oswald', sans-serif;
+    color: #000000;
+  }
+  
+  .educationSection th,
+  .educationSection td {
+    padding: 10px;
+    color: black;
+    font-family: 'Lora', serif;
+    font-size: medium;
+  }
+  
+  .educationSection thead th {
+    color: black;
+    text-align: left;
+    font-size: larger;
+  }
+
+  .title {
+    grid-column: span 3;
+    text-align: center;
+    padding-top: 3rem;
+    font-weight: 800;
+  
+  }

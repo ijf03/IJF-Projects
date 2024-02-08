@@ -1,0 +1,58 @@
+.portfolio {
+  text-align: center;
+}
+.portfolio > h2 {
+  font-size: 3em;
+  margin-top: 80px;
+}
+.portfolio > h3 {
+  font-size: 2em;
+  font-weight: 400;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 80px;
+  margin: 80px 20px;
+}
+
+.projects h3 {
+  text-align: center;
+  margin: 20px auto 0px;
+  font-weight: 500;
+
+}
+.projects p {
+  color: #ccc;
+  margin-top: 4px;
+}
+
+.projects div {
+  height: 100px;
+ 
+}
+
+.dropdownContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.sortDropdown {
+  background-color: transparent;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 5px 50px 5px 10px;
+  border-radius: 5px;
+  appearance: none;
+  background-image: url('../images/icons8-sort-50.png');
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 20px;
+}
+
+.sortDropdown option {
+  color: #508068;
+}

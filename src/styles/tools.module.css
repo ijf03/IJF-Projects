@@ -1,0 +1,40 @@
+.toolsSection {
+    background: #f8e6a0;
+    border-collapse: collapse;
+    border-radius: 10px;
+}
+  
+.row {
+display: flex;
+justify-content: space-around;
+}
+
+.col {
+flex: 1;
+padding: 20px;
+}
+
+.text h5{
+padding: 15px;
+font-size: 2rem;
+color: black;
+}
+
+.text p {
+font-size: 0.8rem;
+color: black;
+}
+
+.flexColumn {
+display: flex;
+flex-direction: column;
+}
+
+.flexRow {
+display: flex;
+align-items: center;
+}
+
+img {
+width: 15%;
+}

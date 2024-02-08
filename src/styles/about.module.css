@@ -1,0 +1,139 @@
+/* contact.module.css */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.title {
+    font-size: 2.5em;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.education {
+    padding-top: 3rem;
+}
+.subtitle {
+    font-size: 1.2em;
+    padding-top: 3rem;
+    text-align: center;
+}
+
+.contactInfo,
+.contactForm {
+    margin-bottom: 40px;
+}
+
+a {
+    list-style: none;
+    padding: 10;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007acc;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #005d99;
+}
+
+/* Social Icons */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px; /* Increased font size */
+    width: 56px; /* Increased width for better spacing */
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    transition: background-color 0.3s, color 0.3s;
+    margin: 10px; /* Adjusted margin for better spacing */
+}
+
+.social-icon:hover {
+    background-color: #f0f0f0;
+    color: #a793e9;
+}
+
+/* Facebook Icon */
+.facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Instagram Icon */
+.instagram {
+    background: #125688;
+    color: white;
+}
+
+/* LinkedIn Icon */
+.linkedin {
+    background: #0077b5;
+    color: white;
+}
+
+/* Email Icon */
+.email {
+    background: #dd4b39;
+    color: white;
+}
+
+#contact .btn {
+    background-color: #e0c860;
+}
+
+#contact .btn:hover {
+    background-color: #dd7373;
+}
+
+@media (max-width: 767px) {
+    .social-icon {
+        font-size: 24px;
+        width: 44px;
+        height: 44px;
+        margin: 8px; /* Adjusted margin for better spacing */
+    }
+}
+
