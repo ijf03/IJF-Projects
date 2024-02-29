@@ -19,7 +19,7 @@ export default function Home({ data }) {
             <h5>Hello, my name is</h5>
             <h1>Isabelle J. Fernan</h1>
             <p>Developer</p>
-            <Link className={styles.btn} to="/contact">Contact Me!</Link>
+            <Link className={styles.btn} to="/about">Contact Me!</Link>
           </div>
 
           <div>
