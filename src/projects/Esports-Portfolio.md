@@ -16,10 +16,10 @@ This portfolio features detailed sections on various esports events, achievement
 - Interactive timeline featuring various career highlights and events.
 
 ### View The Website
-You can view my esports portfolio by visiting my website [here](https://wasabigaming03.com/).
+You can view my esports portfolio by visiting my website <a href="https://wasabigaming03.com/" target="_blank" style="color: #e9da93; text-decoration: none;">here</a>
 
 ### Source Code
-The source code for this project is available on GitHub. Check it out [here](https://github.com/ijf03/WG).
+The source code for this project is available on GitHub. Check it out <a href="https://github.com/ijf03/WG" target="_blank" style="color: #e9da93; text-decoration: none;">here</a>.
 
 <!-- ### Gallery
 ![Image 1 Description](../images/featured/Esports-portfolio-banner.png)

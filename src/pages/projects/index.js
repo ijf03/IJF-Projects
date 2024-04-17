@@ -1,4 +1,4 @@
-import React, { useState } from 'react'; // Import useState
+import React, { useState } from 'react';
 import { graphql, Link } from 'gatsby';
 import Layout from '../../components/Layout';
 import * as styles from '../../styles/projects.module.css';
@@ -8,10 +8,8 @@ export default function Projects({ data }) {
   const projects = data.projects.nodes;
   const contact = data.contact.siteMetadata.contact;
 
-  // State for storing the sort criteria
   const [sortCriteria, setSortCriteria] = useState('');
 
-  // Function to sort projects based on stack
   const sortedProjects = sortCriteria
     ? projects.filter(project => project.frontmatter.stack.includes(sortCriteria))
     : projects;
@@ -36,11 +34,12 @@ export default function Projects({ data }) {
         <div className={styles.projects}>
           {sortedProjects.map((project) => (
             <Link to={`/projects/${project.frontmatter.slug}`} key={project.id}>
-              <div>
+              <div className={styles.projectContainer}>
                 {project.frontmatter.thumbnail && (
                   <GatsbyImage
                     image={getImage(project.frontmatter.thumbnail)}
                     alt={project.frontmatter.title}
+                    className={styles.projectImage} // Add this className
                   />
                 )}
                 <h3>{project.frontmatter.title}</h3>
@@ -57,8 +56,6 @@ export default function Projects({ data }) {
   );
 }
 
-
-// export page query
 export const query = graphql`
   query ProjectsPage {
     projects: allMarkdownRemark(sort: { frontmatter: { date: DESC } }) {
@@ -86,5 +83,3 @@ export const query = graphql`
     }
   }
 `;
-
-
